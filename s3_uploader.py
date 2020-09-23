@@ -1,7 +1,7 @@
 import boto3
 
-ACCESS_KEY = 'AKIARZC2K5VUDENYQQTH'
-SECRET_KEY = '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'
+ACCESS_KEY = 'ACCESS_KEY'
+SECRET_KEY = 'SECRET_KEY'
 BUCKET_NAME = 'images-api-upload'
 
 def upload_to_s3(filename, filepath):
