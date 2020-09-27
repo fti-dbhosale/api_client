@@ -1,0 +1,9 @@
+services:
+  api_client:
+    command: ./app/get_notification.py
+    image: api_client:1.0.0
+    network_mode: host
+    restart: 'always'
+    tty: true
+version: '3.2'
+

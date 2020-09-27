@@ -2,7 +2,7 @@ import os
 import pyinotify
 from s3_uploader import upload_to_s3
 
-directory_path = "../images"
+directory_path = "images"
 class EventProcessor(pyinotify.ProcessEvent):
     _methods = ["IN_CREATE",
                 "IN_OPEN",
