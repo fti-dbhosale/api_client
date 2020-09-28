@@ -2,3 +2,4 @@ pyinotify==0.9.6
 pytz==2020.1
 boto3==1.15.3
 botocore==1.18.3
+requests
